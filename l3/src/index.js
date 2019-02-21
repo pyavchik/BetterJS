@@ -13,7 +13,6 @@ const makePerson = ({firstName, age, job, lastName}) => {
         name: firstName + ' ' + lastName,
         age,
         job,
-        lastName
     }
 };
 
