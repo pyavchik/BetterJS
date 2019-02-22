@@ -12,7 +12,7 @@ const makePerson = ({firstName, age, job, lastName}) => {
     return {
         name: firstName + ' ' + lastName,
         age,
-        job,
+        job
     }
 };
 
@@ -24,7 +24,7 @@ const makePerson = ({firstName, age, job, lastName}) => {
 // };
 
 const dev = makePerson({
-    firstName: 'Scot',
+    name: 'Scot',
     lastName: 'Tolinsky',
     age: '34',
     job: 'web disigner',
