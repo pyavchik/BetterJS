@@ -27,7 +27,7 @@ const checkout = cart => {
     const orderSuccess = fakeAPICharge(total);
 
     if (orderSuccess) {
-        sendRecipt({email: "fakeemail@gmail.com"});
+        sendRecipt({email: "fakeemail@gmail.com "});
     }
     return orderSuccess;
 };
